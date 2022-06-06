@@ -8,6 +8,12 @@ import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 
+import "animate.css";
+import "fullpage-vue/src/fullpage.css";
+import VueFullpage from "fullpage-vue";
+
+Vue.use(VueFullpage);
+
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
 

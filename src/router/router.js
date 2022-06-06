@@ -3,8 +3,8 @@ import Router from "vue-router";
 import Home from "@/views/main/index";
 
 import menu1 from "@/views/menu1/index";
-
 import menu2 from "@/views/menu2/index";
+import test from "@/views/test";
 
 Vue.use(Router);
 
@@ -28,6 +28,12 @@ export default new Router({
       path: "/menu2",
       name: "menu2",
       component: menu2
+    },
+    {
+      id: 3,
+      path: "/test",
+      name: "test",
+      component: test
     }
   ]
 });
